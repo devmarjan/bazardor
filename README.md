@@ -2,6 +2,8 @@
 
 বাংলাদেশের প্রয়োজনীয় পণ্য (চাল, ডাল, তেল, সবজি, মাছ, মাংস, ডিম-দুধ, মসলা) এর আজকের দাম, দামের ওঠানামা ও বাজারভিত্তিক তুলনা এক জায়গায়।
 
+🔗 Live Demo: (Vercel লিংক এখানে বসাও)
+
 ## Technologies
 Next.js 14 (App Router) · Tailwind CSS · DaisyUI · Better Auth (Email + Google + GitHub) · MongoDB · react-hot-toast
 
