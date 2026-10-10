@@ -27,7 +27,7 @@ export default async function ProductPage({ params }) {
             <p className="text-xs text-gray-500">{p.unit}{cat && ` · ${cat.name}`}</p>
             {p.description && <p className="text-sm mt-1">{p.description}</p>}
             <div className="flex gap-2 mt-2 flex-wrap">
-              {p.tags.map((t, i) => <span key={i} className="badge badge-outline">{typeof t === "string" ? t : t.name}</span>)}
+              {(p.tags.length ? p.tags : cat ? [cat.name] : []).map((t, i) => <span key={i} className="badge badge-outline">{typeof t === "string" ? t : t.name}</span>)}
             </div>
           </div>
         </div>
