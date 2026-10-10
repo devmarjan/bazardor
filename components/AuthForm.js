@@ -39,7 +39,10 @@ export default function AuthForm({ mode }) {
       router.refresh();
     }
   }
-  const social = (provider) => authClient.signIn.social({ provider, callbackURL: "/" });
+  const social = async (provider) => {
+    const { error } = await authClient.signIn.social({ provider, callbackURL: "/" });
+    if (error) toast.error("এই সোশ্যাল লগইনের key এখনো সেটআপ করা হয়নি");
+  };
   const field = "input input-bordered w-full";
 
   return (

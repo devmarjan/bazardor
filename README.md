@@ -15,6 +15,9 @@ Next.js 14 (App Router) · Tailwind CSS · DaisyUI · Better Auth (Email + Googl
 5. Better Auth দিয়ে Sign in/up, Google/GitHub login, toast notification ও প্রোফাইল আপডেট
 
 ## Run locally
+**সহজ উপায়:** Windows-এ `START-WINDOWS.bat` ডাবল ক্লিক করো (Mac/Linux: `START-MAC-LINUX.sh`)।
+
+**কমান্ড দিয়ে:**
 ```bash
 npm install
 cp .env.example .env   # মানগুলো বসাও
