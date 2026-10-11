@@ -24,3 +24,4 @@ cp .env.example .env   # মানগুলো বসাও
 npm run dev
 ```
 OAuth callback: `{BASE_URL}/api/auth/callback/google` ও `/github`.
+# bazardor
